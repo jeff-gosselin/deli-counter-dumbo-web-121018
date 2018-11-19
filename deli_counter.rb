@@ -5,8 +5,9 @@ def line(arr)
     positions = []
     arr.each_with_index do |customer, i|
       positions.push("#{i + 1}. #{customer}")
+      puts "The line is currently: #{positions.join(' ')}"
     end
   end
   
-  puts "The line is currently: #{positions.join(' ')}"
+  
 end
