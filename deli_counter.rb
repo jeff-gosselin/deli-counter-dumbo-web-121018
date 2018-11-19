@@ -9,6 +9,4 @@ def line(arr)
     end
     puts "The line is currently: #{positions.join(' ')}"
   end
-  
-  
 end
