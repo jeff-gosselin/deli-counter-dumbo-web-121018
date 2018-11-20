@@ -21,5 +21,6 @@ def now_serving(deli_line)
     puts "There is nobody waiting to be served!"
   else
     being_served = deli_line.shift
+    puts being_served
 end
   
