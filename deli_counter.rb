@@ -11,3 +11,7 @@ def line(arr)
   end
 end
 
+def take_a_number(deli_line, new_person)
+  deli_line.push(new_person)
+  
+end
