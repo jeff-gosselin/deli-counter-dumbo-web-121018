@@ -13,5 +13,7 @@ end
 
 def take_a_number(deli_line, new_person)
   deli_line.push(new_person)
+  if deli_line.size == 1 
+    puts 
   
 end
