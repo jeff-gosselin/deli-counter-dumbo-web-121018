@@ -20,6 +20,6 @@ def now_serving(deli_line)
   if deli_line.empty?
     puts "There is nobody waiting to be served!"
   else
-    deli_line.shift
+    being_served = deli_line.shift
 end
   
